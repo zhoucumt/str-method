@@ -13,3 +13,13 @@ var s = '𠮷𠮷';
 
 s.length // 4
 length(s) // 2
+
+/**
+ * 更简单的方法：返回字符串的正确长度
+ * 
+ * @param {string} str 需要计算长度的字符串
+ * @return {number} result   字符串的长度
+ */
+function length2(str) {
+    return [...str].length;
+}
